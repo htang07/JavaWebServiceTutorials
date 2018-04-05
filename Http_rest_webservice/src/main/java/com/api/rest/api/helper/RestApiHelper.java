@@ -34,11 +34,11 @@ public class RestApiHelper {
 		}
 		
 	}
-	
 	private static Header[] getCustomHeaders(Map<String, String> headers) {
 		Header[] customHeaders = new Header[headers.size()];
 		int i = 0;
 		for (String key : headers.keySet()) {
+			
 			customHeaders[i++] = new BasicHeader(key, headers.get(key));
 		}
 		return customHeaders;
