@@ -101,7 +101,7 @@ public class TestGetMethod {
 	}
 
 	@Test
-	public void testGetSimpleGetRequest1() {
+	public void testHttpGetPingAlive() {
 		HttpGet get = new HttpGet("http://localhost:8080/laptop-bag/webapi/api/ping/hello");
 		try (CloseableHttpClient client = HttpClientBuilder.create().build();
 				CloseableHttpResponse response = client.execute(get);) {
@@ -118,8 +118,10 @@ public class TestGetMethod {
 	}
 
 	@Test
-	public void testGetRestJsonResponse() {
+	public void testGetRestJsonResponseGetAll() {
+		//Return 204 No content
 		HttpGet get = new HttpGet("http://localhost:8080/laptop-bag/webapi/api/all");
+		//HttpGet get = new HttpGet("http://localhost:8080/JSON-Support-Jersey-Example/rest/json/metallica/get");
 		Map<String, String> headers = new HashMap<String, String>();
 		headers.put("Accept", "application/json");
 		for (String str : headers.keySet()) {

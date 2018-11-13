@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<laptopDetailss>
+    <Laptop>
+        <BrandName>Dell</BrandName>
+        <Features>
+            <Feature>8GB RAM</Feature>
+            <Feature>1TB Hard Drive</Feature>
+        </Features>
+        <Id>126</Id>
+        <LaptopName>Latitude</LaptopName>
+    </Laptop>
+    <Laptop>
+        <BrandName>Apple</BrandName>
+        <Features>
+            <Feature>8GB RAM</Feature>
+            <Feature>1TB Hard Drive</Feature>
+            <Feature>256 GB of SSD</Feature>
+            <Feature>15.5 inch Display</Feature>
+            <Feature>USB 3.0</Feature>
+            <Feature>GeForge Graphic Card</Feature>
+        </Features>
+        <Id>127</Id>
+        <LaptopName>Mac Book Pro</LaptopName>
+    </Laptop>
+</laptopDetailss>
+
+ <Laptop>
+        <BrandName>Apple</BrandName>
+        <Features>
+            <Feature>8GB RAM</Feature>
+            <Feature>1TB Hard Drive</Feature>
+            <Feature>256 GB of SSD</Feature>
+            <Feature>15.5 inch Display</Feature>
+            <Feature>USB 3.0</Feature>
+            <Feature>GeForge Graphic Card</Feature>
+        </Features>
+        <Id>127</Id>
+        <LaptopName>Mac Book Pro</LaptopName>
+    </Laptop>
+    
+    
+    [
+    {
+        "BrandName": "Dell",
+        "Features": {
+            "Feature": [
+                "8GB RAM",
+                "1TB Hard Drive"
+            ]
+        },
+        "Id": 126,
+        "LaptopName": "Latitude"
+    },
+    {
+        "BrandName": "Apple",
+        "Features": {
+            "Feature": [
+                "8GB RAM",
+                "1TB Hard Drive",
+                "256 GB of SSD",
+                "15.5 inch Display",
+                "USB 3.0",
+                "GeForge Graphic Card"
+            ]
+        },
+        "Id": 127,
+        "LaptopName": "Mac Book Pro"
+    }
+]

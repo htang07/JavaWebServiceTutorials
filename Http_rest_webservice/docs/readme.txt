@@ -1,0 +1,3 @@
+---Deploy laptop-bag.war to webserver(ex.tomcat) then you can send HttpRequest to the destination
+---Use postman tool to excute sample data provided in input_data.txt before test api-client mehtods
+	-Httppost input_data to http://localhost:8080/laptop-bag/webapi/api/add  

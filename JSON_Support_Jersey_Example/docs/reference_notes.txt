@@ -1,0 +1,4 @@
+Send request to following get url to test
+http://localhost:8080/JSON-Support-Jersey-Example/rest/json/metallica/get
+
+http://www.mkyong.com/webservices/jax-rs/json-example-with-jersey-jackson/

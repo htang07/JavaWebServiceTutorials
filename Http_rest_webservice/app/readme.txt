@@ -1,0 +1,1 @@
+Deploy laptop-bag.war to webserver(ex.tomcat) then you can send HttpRequest to the destination
